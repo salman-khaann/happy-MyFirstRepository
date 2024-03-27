@@ -1,4 +1,2 @@
-# typeScript-my45-questions
-All 45 Que-Answers (typeScript)
-<br>
+# All 45 Que-Answers (typeScript)
 Author - Muhammad Salman.
