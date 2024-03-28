@@ -1,11 +1,4 @@
-//Que # 3. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+//4. Famous Quote: Find a quote from a famous person you admire. Print the quote and the name of its author. Your output should look something like the following, including the quotation marks:
+// Albert Einstein once said, “A person who never made a mistake never tried anything new.”
 
-const perName = "sALman kHAN";
-console.log(`Name in lowerCase : ${perName.toLowerCase()}.`)
-console.log(`Name in upperCase : ${perName.toUpperCase()}.`);
-
-// now for title case
-let step_1 = perName.split(` `);
-let step_2 = step_1.map(word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
-let step_3 = step_2.join(` `);
-console.log(`And name in titleCase is : ${step_3}.`);
+console.log('Mark Zuckerberg once said, "The biggest risk in life is not-taking any risk"')
