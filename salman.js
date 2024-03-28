@@ -1,10 +1,5 @@
-//Que # 3. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
-const perName = "sALman kHAN";
-console.log(`Name in lowerCase : ${perName.toLowerCase()}.`);
-console.log(`Name in upperCase : ${perName.toUpperCase()}.`);
-// now for title case
-let step_1 = perName.split(` `);
-let step_2 = step_1.map(word => word.charAt(0).toUpperCase() + word.substr(1).toLowerCase());
-let step_3 = step_2.join(` `);
-console.log(`And name in titleCase is : ${step_3}.`);
+//Question # 5. Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person. Then compose your message and store it in a new variable called message. Print your message.
+let famous_person = "Mark Zuckerberg";
+let message = `"The biggest risk in life is not taking any risk."`;
+console.log(`${famous_person} once said ${message}`);
 export {};
