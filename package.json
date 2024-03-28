@@ -1,7 +1,7 @@
 {
-  "name": "typescript-my45-questions",
+  "name": "task-02",
   "version": "1.0.0",
-  "description": "Author - Muhammad Salman.",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
